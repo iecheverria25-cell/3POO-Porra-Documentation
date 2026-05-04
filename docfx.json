@@ -4,9 +4,9 @@
     {
       "src": [
         {
-          "src": "../.",
+          "src": ".",
           "files": [
-            "**/*.csproj"
+            "*.csproj"
           ]
         }
       ],
@@ -17,10 +17,10 @@
     "content": [
       {
         "files": [
-          "**/*.{md,yml}"
-        ],
-        "exclude": [
-          "_site/**"
+          "index.md",
+          "toc.yml",
+          "api/**.yml",
+          "api/index.md"
         ]
       }
     ],
@@ -31,14 +31,14 @@
         ]
       }
     ],
-    "output": "_site",
+    "output": "docs",
     "template": [
       "default",
       "modern"
     ],
     "globalMetadata": {
-      "_appName": "docfx metadata",
-      "_appTitle": "docfx metadata",
+      "_appName": "Porra Documentation",
+      "_appTitle": "3POO Porra Documentation",
       "_enableSearch": true,
       "pdf": false
     }
