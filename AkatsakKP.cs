@@ -26,23 +26,21 @@ Console.WriteLine($"2. Batez bestekoa: {batazBestekoa}");
                 kontagailua++;
             }
 
-
             // 3. AKATSA
             int[] arrayZenbakiak = { 1, 2, 3, 4, 5 };
-Console.WriteLine("5. Zenbakien karratuak:");
+            Console.WriteLine("5. Zenbakien karratuak:");
 
-int karratua = 0;
+            int karratua = 0;
 
-foreach (int zenbakia in arrayZenbakiak)
-{
-    karratua = zenbakia * zenbakia;
-}
+            foreach (int zenbakia in arrayZenbakiak)
+            {
+                karratua = zenbakia * zenbakia;
+                Console.WriteLine($"Zenbakiaren karratua: {karratua}");
+            }
 
-Console.WriteLine($"Zenbakiaren karratua: {karratua}");
 
-
-// 4. AKATSA
-int[] balioMistoa = { 1, 3, 5, 7, 9 };
+            // 4. AKATSA
+            int[] balioMistoa = { 1, 3, 5, 7, 9 };
 int emaitza = 0;
 
 for (int i = 0; i < balioMistoa.Length; i++)
