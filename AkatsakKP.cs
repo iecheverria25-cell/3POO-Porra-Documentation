@@ -41,14 +41,11 @@ Console.WriteLine($"2. Batez bestekoa: {batazBestekoa}");
 
             // 4. AKATSA
             int[] balioMistoa = { 1, 3, 5, 7, 9 };
-int emaitza = 0;
+            int emaitza = 0;
 
-for (int i = 0; i < balioMistoa.Length; i++)
-{
-    emaitza += balioMistoa[i] + balioMistoa[i];
-}
+            for (int i = 0; i < balioMistoa.Length; i++)
+            {
+                emaitza += balioMistoa[i];
+            }
 
-Console.WriteLine($"7. Zenbakien batura: {emaitza}");
-                  }
-    }
-}
+            Console.WriteLine($"7. Zenbakien batura: {emaitza}");
