@@ -7,7 +7,7 @@ namespace _3POO_5
     /// <summary>
     /// Programaren klase nagusia. Porraren datuak kudeatzen ditu.
     /// </summary>
-    class Program
+   public class Program
     {
         /// <summary>
         /// Porra objektuen zerrenda gordetzen du.
