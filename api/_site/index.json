@@ -1,0 +1,32 @@
+{
+  "api/_3POO_5.Porra.html": {
+    "href": "api/_3POO_5.Porra.html",
+    "title": "Class Porra | docfx metadata",
+    "summary": "Class Porra Namespace _3POO_5 Assembly 3POO_5.dll Futbol porra baten informazioa gordetzen duen klasea. public class Porra Inheritance object Porra Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) Constructors Porra(string, string, string, string, int) Porra objektu berri bat sortzen du. public Porra(string i, string ir, string fi, string go, int p) Parameters i string Parte-hartzailearen izena ir string Irabazlea fi string Finalista go string Goleatzailea p int Hasierako puntuak Properties Finalista Finalista lortu edo ezartzen du. public string Finalista { get; set; } Property Value string Goleatzailea Goleatzaile nagusia lortu edo ezartzen du. public string Goleatzailea { get; set; } Property Value string Irabazlea Irabazlea lortu edo ezartzen du. public string Irabazlea { get; set; } Property Value string Izena Parte-hartzailearen edo taldearen izena lortu edo ezartzen du. public string Izena { get; set; } Property Value string Puntuak Puntuak lortu edo ezartzen ditu. public int Puntuak { get; set; } Property Value int Methods AsmatuBiFinalistak() Bi finalistak asmatu badira puntuak gehitzen ditu. public int AsmatuBiFinalistak() Returns int Puntu berriak AsmatuIrabazlea() Irabazlea asmatu bada puntuak gehitzen ditu. public int AsmatuIrabazlea() Returns int Puntu berriak Goleko() Goleatzailea asmatu bada puntuak gehitzen ditu. public int Goleko() Returns int Puntu berriak Pantailaratu() Porra datuak testu moduan pantailaratzeko erabiltzen da. public string Pantailaratu() Returns string Porra-ren informazioa string formatuan ToString() Objektuaren testu errepresentazioa bueltatzen du. public override string ToString() Returns string Porra-ren datuak string batean"
+  },
+  "api/_3POO_5.Program.html": {
+    "href": "api/_3POO_5.Program.html",
+    "title": "Class Program | docfx metadata",
+    "summary": "Class Program Namespace _3POO_5 Assembly 3POO_5.dll Programaren klase nagusia. Porraren datuak kudeatzen ditu. public class Program Inheritance object Program Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString()"
+  },
+  "api/_3POO_5.html": {
+    "href": "api/_3POO_5.html",
+    "title": "Namespace _3POO_5 | docfx metadata",
+    "summary": "Namespace _3POO_5 Classes Porra Futbol porra baten informazioa gordetzen duen klasea. Program Programaren klase nagusia. Porraren datuak kudeatzen ditu."
+  },
+  "docs/getting-started.html": {
+    "href": "docs/getting-started.html",
+    "title": "Getting Started | docfx metadata",
+    "summary": "Getting Started"
+  },
+  "docs/introduction.html": {
+    "href": "docs/introduction.html",
+    "title": "Introduction | docfx metadata",
+    "summary": "Introduction"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "This is the HOMEPAGE. | docfx metadata",
+    "summary": "This is the HOMEPAGE. Refer to Markdown for how to write markdown files. Quick Start Notes: Add images to the images folder if the file is referencing an image."
+  }
+}
