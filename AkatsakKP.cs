@@ -19,17 +19,16 @@ int batazBestekoa = batura;
 Console.WriteLine($"2. Batez bestekoa: {batazBestekoa}");
 
 
-// 2. AKATSA
-int kontagailua = 0;
+            // 2. AKATSA
+            while (kontagailua < 5)
+            {
+                Console.WriteLine($"4. Kontagailua: {kontagailua}");
+                kontagailua++;
+            }
 
-while (kontagailua < 5)
-{
-    Console.WriteLine($"4. Kontagailua: {kontagailua}");
-}
 
-
-// 3. AKATSA
-int[] arrayZenbakiak = { 1, 2, 3, 4, 5 };
+            // 3. AKATSA
+            int[] arrayZenbakiak = { 1, 2, 3, 4, 5 };
 Console.WriteLine("5. Zenbakien karratuak:");
 
 int karratua = 0;
